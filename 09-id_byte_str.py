@@ -4,23 +4,40 @@ from concurrent.futures import ProcessPoolExecutor
 
 
 def get_file_content(file_name):
-    """Opens an existing file, extracts literal byte strings, and checks for
-       complete encoding in any UTF"""
+    """Extract the byte strings from a file.
+
+    The file_name parameter is treated as a file. With file_name opened, its
+    byte strings content is extracted with type preserved. This is made
+    possible with the imported ast module's literal_eval method.
+
+    :param str file_name: File containing byte strings
+    :return: list of byte strings
+    :rtype: list
+    :raises FileNotFoundError: if file is not found
+    :raises ValueError, SyntaxError: if file does not contain only byte strings
+    """
     try:
         with open(file_name, 'r') as f:
-            # Combines all byte strings into one long byte string.
-            # The byte string is placed into a list.
+            # Places byte strings into a list
             return [ast.literal_eval(line) for line in f]
 
     except FileNotFoundError:
         print('File does not exist')
     except (ValueError, SyntaxError):
-        # This raises if file does not contain all bytes
         print('File contains non-byte strings')
 
 
 def get_status(bytes_list):
-    """Attempt decoding of byte strings in UTF-8, -16, and 32"""
+    """Attempt decoding of byte strings in UTF-8, -16, and 32.
+
+    :param list bytes_list: The list of byte strings for decoding
+    :return: the file's status message
+    :rtype: str
+    :raises UnicodeDecodeError: if bytes_list does not contain UTF-encoded
+        byte strings
+    :raises AttributeError, TypeError: if FileNotFoundError and ValueError
+        are raised in the get_file_content function
+    """
     try:
         for item in bytes_list:
             item.decode('utf8')
@@ -55,7 +72,16 @@ def get_status(bytes_list):
 
 
 def get_decoded_str(bytes_list):
-    """Return the decoded bytes strings in string"""
+    """Return the decoded bytes strings in string.
+
+    :param list bytes_list: The list of byte strings for decoding
+    :return: decoded byte strings as a string
+    :rtype: str
+    :raises UnicodeDecodeError: if bytes_list does not contain UTF-encoded
+        byte strings
+    :raises AttributeError, TypeError: if FileNotFoundError and ValueError
+        are raised in the get_file_content function
+    """
     string = ''
 
     try:
