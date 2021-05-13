@@ -7,6 +7,5 @@ term in a sequence. - Wiki
 
 For more details [click here](https://en.wikipedia.org/wiki/Toy_program)
 
-
-### Credits
+## Credits
 This is a work in process owned by Angel Li [@angelptli](https://github.com/angelptli)
