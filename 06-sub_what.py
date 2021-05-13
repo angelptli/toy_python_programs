@@ -36,15 +36,15 @@ if __name__ == '__main__':
             args_result(input_args)
         else:
             print('Please enter the proper sys args. -> ',
-                  'Example: python3 /path/file.py java file.java arg1...')
+                  'Ex: python3 file.py /usr/local/bin/java file.java arg1...')
 
     except FileNotFoundError:
         print('Please enter the proper sys args. -> ',
-              'Example: python3 /path/file.py java file.java arg1...')
+              'Ex: python3 file.py /usr/local/bin/java file.java arg1...')
 
     else:
         print('\nInvalid input. Please try again.')
-        print('Example: python3 /path/file.py java file.java arg1...')
+        print('Ex: python3 file.py /usr/local/bin/java file.java arg1...')
 
 """
 Example usage on command line for java file
