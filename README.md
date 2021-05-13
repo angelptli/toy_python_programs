@@ -7,7 +7,7 @@ term in a sequence. - Wiki <br/><br/>
 
 ## Links
 [More on toy programs](https://en.wikipedia.org/wiki/Toy_program) <br/>
-[Alpaca image from pngtree](https://pngtree.com/freepng/gray-cute-illustration-hand-painted-alpaca_3839821.html)
+[Random alpaca image from pngtree](https://pngtree.com/freepng/gray-cute-illustration-hand-painted-alpaca_3839821.html)
 
 ## Credits
 This is a work in process owned by Angel Li [@angelptli](https://github.com/angelptli)
