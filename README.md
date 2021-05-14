@@ -1,7 +1,7 @@
 # What are toy programs?
 > **Toy programs are small computer programs used for educational purposes.**
 > **The concepts implemented can be useful in more sophisticated programs.**
-> **A toy program typically focuses on a specific problem, such as computing the nth term in a sequence.** ***- Wiki*** <br/>
+> **A toy program typically focuses on a specific problem, such as computing the nth term in a sequence.** ***- Wiki***
 <img src="images/cute-gray-alpaca.png" width="200" height="200"> <br/>
 [Click to move to toy_python_programs folder](toy_python_programs)
 
