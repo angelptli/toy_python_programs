@@ -1,2 +1,2 @@
-# Toy programs presentation
+# Presentation
 *To be added*
