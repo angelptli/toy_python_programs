@@ -4,7 +4,7 @@
 ```
 $ python3 zig_zag.py 'ლ(ಠ益ಠ)ლ', '¡'
 ```
-<img src="images/01-count-lambs-output.png" width="400" height="600"> <br/>
+<img src="images/01-count-lambs-output.png" width="200" height="400"> <br/>
 [02-zig_zag.py](02-zig_zag.py)
 ```
 ```
