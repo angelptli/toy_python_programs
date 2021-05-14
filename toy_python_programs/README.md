@@ -126,4 +126,7 @@ $ python3 id_byte_str.py [file1] [file2] [file3] ...
 ```
 #
 ### Docs
-To be added
+TBA
+
+## Credits
+This is a work in process by Angel Li [@angelptli](https://github.com/angelptli)
