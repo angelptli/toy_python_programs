@@ -1,2 +1,2 @@
-# The programs
+# Programs
 *To be added*
