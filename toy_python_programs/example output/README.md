@@ -11,7 +11,7 @@
 [08-turn_json.py](#08-turn_json.py)
 [09-id_byte_str.py](#09-id_byte_str.py)
 #
-[01-count_lambs.py](../01-count_lambs.py)
+###### [01-count_lambs.py](../01-count_lambs.py)
 ```
 $ python3 zig_zag.py 'ლ(ಠ益ಠ)ლ', '¡'
 ```
