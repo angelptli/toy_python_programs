@@ -11,7 +11,7 @@
 - Exclude one-character labels (e.g. a, b, 1, 2)
 - Use counter with default value of 0
 
-**Usage**
+**Usage:**
 ```
 $ python3 count_lambs.py [file]
 ```
