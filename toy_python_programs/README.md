@@ -3,7 +3,7 @@
 #
 [01-count_lambs.py](01-count_lambs.py)
 
-**Goal:** Feed file content to reduce and lambda functions to get count of word(s)
+**Goal:** Feed file content to reduce and lambda functions to count certain words
 
 **Applications:**
 - Convert file contents to a list
@@ -78,7 +78,7 @@ TBA
 #
 [07-file_checks.py](07-file_checks.py)
 
-**Goal:** Check for UTF file types with concurrent processing
+**Goal:** Check for UTF file status using concurrent processing
 
 **Applications:**
 - Check if file is UTF-8, UTF-16, or other
@@ -95,7 +95,7 @@ $ python3 file_checks.py [file1] [file2] [file3] ...
 #
 [08-turn_json.py](08-turn_json.py)
 
-**Goal:** Convert CSV objects to pretty JSON objects
+**Goal:** Convert objects from CSV files to pretty print JSON objects
 
 **Applications:**
 - Use sniffer to identify dialect and delimiter
@@ -112,7 +112,7 @@ $ python3 turn_json.py [file1] [file2] [file3] ...
 #
 [09-id_byte_str.py](09-id_byte_str.py)
 
-**Goal:** Extract byte strings from file(s) and determine encoding
+**Goal:** Extract byte strings from file(s) and determine their UTF encoding
 
 **Applications:**
 - Work with files containing only byte strings
