@@ -20,7 +20,7 @@ $ python3 count_lambs.py [file]
 $ python3 count_lambs.py [file1] [file2] [file3] ...
 ```
 #
-[02-zig_zag.py](02-zig_zag.py) <br/>
+[02-zig_zag.py](02-zig_zag.py)
 **Goal**
 - Simulate a symmetrical zig zag pattern using itertools module's chain function
 
@@ -35,7 +35,7 @@ $ python3 count_lambs.py [file1] [file2] [file3] ...
 $ python3 test.py [main_pattern] [pole_pattern]
 ```
 #
-[03-columnize.py](03-columnize.py) <br/>
+[03-columnize.py](03-columnize.py)
 **Goal**
 - Columnize file content using the re and textwrap modules
 
@@ -49,7 +49,7 @@ $ python3 test.py [main_pattern] [pole_pattern]
 $ python3 columnize.py [file]
 ```
 #
-[04-math_dates.py](04-math_dates.py) <br/>
+[04-math_dates.py](04-math_dates.py)
 **Goal**
 TBA <br/>
 **Application**
@@ -57,7 +57,7 @@ TBA <br/>
 **Usage**
 TBA
 #
-[05-utf_id.py](05-utf_id.py) <br/>
+[05-utf_id.py](05-utf_id.py)
 ***Goal***:
 TBA <br/>
 **Application** 
@@ -65,7 +65,7 @@ TBA <br/>
 **Usage**
 TBA
 #
-[06-sub_what.py](06-sub_what.py) <br/>
+[06-sub_what.py](06-sub_what.py)
 **Goal**
 TBA <br/>
 **Application**
@@ -73,7 +73,7 @@ TBA <br/>
 **Usage**
 TBA
 #
-[07-file_checks.py](07-file_checks.py) <br/>
+[07-file_checks.py](07-file_checks.py)
 **Goal**
 - Check for UTF file types with concurrent processing
 
@@ -90,7 +90,7 @@ $ python3 file_checks.py [file]
 $ python3 file_checks.py [file1] [file2] [file3] ...
 ```
 #
-[08-turn_json.py](08-turn_json.py) <br/>
+[08-turn_json.py](08-turn_json.py)
 **Goal**
 Convert CSV objects to pretty JSON objects
 
@@ -107,16 +107,14 @@ $ python3 turn_json.py [file]
 $ python3 turn_json.py [file1] [file2] [file3] ...
 ```
 #
-[09-id_byte_str.py](09-id_byte_str.py) <br/>
+[09-id_byte_str.py](09-id_byte_str.py)
 **Goal**
 - Extract byte strings from file(s) and determine encoding
-
 **Application**
 - Work with files containing only byte strings
 - Preserve byte string type using ast modules's literal_eval helper
 - Attempt decoding in UTF-8, -16, and 32
 - Include feature for returning decoded byte strings as strings
-
 **Usage**
 ```
 $ python3 id_byte_str.py [file1] [file2] [file3] ...
