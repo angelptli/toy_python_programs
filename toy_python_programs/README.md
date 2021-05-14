@@ -125,7 +125,7 @@ $ python3 turn_json.py [file1] [file2] [file3] ...
 $ python3 id_byte_str.py [file1] [file2] [file3] ...
 ```
 #
-### Docs
+## Docs
 TBA
 
 ## Credits
