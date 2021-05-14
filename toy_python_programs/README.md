@@ -1,5 +1,5 @@
 # Toy Python Programs
-###### Note: These toy python programs are command line friendly. They have been tested in Linux. Usage examples are easily translated for testing in Windows and Mac.
+*Note: These toy python programs are command line friendly. They have been tested in Linux. Usage examples are easily translated for testing in Windows and Mac.*
 #
 [01-count_lambs.py](01-count_lambs.py)
 
@@ -29,6 +29,7 @@ $ python3 count_lambs.py [file1] [file2] [file3] ...
 - Specify various ranges of spacing
 - Essentiate symmetrical pattern with pole pattern
 - Chain separate range sequences into a single long sequence
+
 **Usage:**
 ```
 $ python3 test.py [main_pattern] [pole_pattern]
