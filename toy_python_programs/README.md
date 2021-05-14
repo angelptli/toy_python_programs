@@ -23,13 +23,13 @@ $ python3 count_lambs.py [file1] [file2] [file3] ...
 
 **Goal:** Simulate a symmetrical zig zag pattern using itertools module's chain function
 
-**Application**
+**Application:**
 - Customize main pattern (7-8 characters)
 - Customize pole pattern (1-2 characters)
 - Specify various ranges of spacing
 - Essentiate symmetrical pattern with pole pattern
 - Chain separate range sequences into a single long sequence
-**Usage**
+**Usage:**
 ```
 $ python3 test.py [main_pattern] [pole_pattern]
 ```
@@ -38,12 +38,12 @@ $ python3 test.py [main_pattern] [pole_pattern]
 
 **Goal:** Columnize file content using the re and textwrap modules
 
-**Application**
+**Application:**
 - Substitute all initial spacing with one-spaces
 - Keep words intact without breakage
 - Format content into one continuous column
 
-**Usage**
+**Usage:**
 ```
 $ python3 columnize.py [file]
 ```
@@ -52,39 +52,39 @@ $ python3 columnize.py [file]
 
 **Goal:**
 TBA <br/>
-**Application**
+**Application:**
 TBA <br/>
-**Usage**
+**Usage:**
 TBA
 #
 [05-utf_id.py](05-utf_id.py)
 
 **Goal:**
 TBA <br/>
-**Application** 
+**Application:** 
 TBA <br/>
-**Usage**
+**Usage:**
 TBA
 #
 [06-sub_what.py](06-sub_what.py)
 
 **Goal:**
 TBA <br/>
-**Application**
+**Application:**
 TBA <br/>
-**Usage**
+**Usage:**
 TBA
 #
 [07-file_checks.py](07-file_checks.py)
 
 **Goal:** Check for UTF file types with concurrent processing
 
-**Application**
+**Application:**
 - Check if file is UTF-8, UTF-16, or other
 - Implement concurrent pool processing feature
 - Process quickly with ProcessPoolExecutor class
 
-**Usage**
+**Usage:**
 ```
 $ python3 file_checks.py [file]
 ```
@@ -96,12 +96,12 @@ $ python3 file_checks.py [file1] [file2] [file3] ...
 
 **Goal:** Convert CSV objects to pretty JSON objects
 
-**Application**
+**Application:**
 - Use sniffer to identify dialect and delimiter
 - Add root label to keep track or records
 - Create header for empty-header files
 
-**Usage**
+**Usage:**
 ```
 $ python3 turn_json.py [file]
 ```
@@ -113,13 +113,13 @@ $ python3 turn_json.py [file1] [file2] [file3] ...
 
 **Goal:** Extract byte strings from file(s) and determine encoding
 
-**Application**
+**Application:**
 - Work with files containing only byte strings
 - Preserve byte string type using ast modules's literal_eval helper
 - Attempt decoding in UTF-8, -16, and 32
 - Include feature for returning decoded byte strings as strings
 
-**Usage**
+**Usage:**
 ```
 $ python3 id_byte_str.py [file1] [file2] [file3] ...
 ```
