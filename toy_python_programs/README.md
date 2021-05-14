@@ -1,5 +1,5 @@
 # Toy Python Programs
-**Note: The toy python programs are command line friendly. They have been tested in Linux. Usage examples are easily translated for testing in Windows and Mac.**
+**Note:** The toy python programs are command line friendly. They have been tested in Linux. Usage examples are easily translated for testing in Windows and Mac.
 #
 [01-count_lambs.py](01-count_lambs.py)
 
