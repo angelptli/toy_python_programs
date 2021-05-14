@@ -1,2 +1,2 @@
-# P r o g r a m s
+# Programs
 *To be added*
