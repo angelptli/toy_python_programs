@@ -4,7 +4,7 @@
 > **The concepts implemented can be useful in more sophisticated programs.**
 > **A toy program typically focuses on a specific problem, such as computing the nth term in a sequence.** ***- Wiki***
 
-[click to move to toy_python_programs folder](toy_python_programs)
+[toy python programs folder](toy_python_programs)
 
 ## Source links
 - [details on toy programs](https://en.wikipedia.org/wiki/Toy_program) <br/>
