@@ -4,23 +4,33 @@ import concurrent.futures
 
 def get_utf_stat(file_arg):
     """Opens and determine if file is UTF-8, UTF-16, or other"""
-    # First determine if UTF-8
+    # First check if UTF-32 file
     try:
-        with open(file_arg, 'r', encoding='utf-8') as f:
+        with open(file_arg, 'r', encoding='utf-32') as f:
             f.read()
-            return 'is UTF-8'
-    except UnicodeDecodeError:
+            return 'is encoded in UTF-32'
+    except (UnicodeDecodeError, UnicodeError):
         pass
     except FileNotFoundError:
         return 'does not exist'
+    except IsADirectoryError:
+        return 'is a directory'
 
-    # Then determine if UTF-16
+    # Then check if UTF-16 file
     try:
         with open(file_arg, 'r', encoding='utf-16') as f:
             f.read()
-            return 'is UTF-16'
+            return 'is encoded in UTF-16'
+    except (UnicodeDecodeError, UnicodeError):
+        pass
+
+    # Then check if UTF-8 file
+    try:
+        with open(file_arg, 'r', encoding='utf-8') as f:
+            f.read()
+            return 'is encoded in UTF-8'
     except UnicodeDecodeError:
-        return 'is not UTF-8 nor UTF-16'
+        return 'is not a UTF file'
 
 
 def main():
