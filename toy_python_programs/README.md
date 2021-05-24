@@ -51,30 +51,54 @@ $ python3 columnize.py [file]
 #
 ### [04-math_dates.py](04-math_dates.py)
 
-**Goal:**
-TBA <br/>
+**Goal:** Practice unit testing and output assertion with dates
+
 **Applications:**
-TBA <br/>
+- Place date math functions into its own class
+- Do simple math using datetime module's timedelta function
+- Perform tests in a separate class
+- Self assert output using unittest module's assertEqual function
+
 **Usage:**
-TBA
+N/A
 #
 ### [05-utf_id.py](05-utf_id.py)
 
-**Goal:**
-TBA <br/>
-**Applications:** 
-TBA <br/>
+**Goal:** Calculate the average bytes that characters in a file require
+
+**Applications:**
+- Accept ASCII and UTF-8 files
+- Get the total byte count for a file
+- Get the total character count for a file
+- Calculate average by dividing total bytes with total characters 
+
 **Usage:**
-TBA
+```
+$ python3 utf_id.py [file]
+```
+```
+$ python3 utf_id.py [file1] [file2] [file3] ...
+```
 #
 ### [06-sub_what.py](06-sub_what.py)
 
-**Goal:**
-TBA <br/>
+**Goal:** Utilize python's subprocessing to run programs in different languages
+
 **Applications:**
-TBA <br/>
+- Accept programs written in any programming language
+- Receive any number of arguments following the file's name
+- Run the program using the subprocess module's functions
+- Decorate results using functools module's wraps function
+
 **Usage:**
-TBA
+Example for running java subprocess
+```
+python3 sub_what.py [/usr/local/bin/java] [filename] [arg1] [arg2] ...
+```
+Example for running bash subprocess
+```
+python3 sub_what.py [/usr/local/bin/bash] [./filename] [arg1] [arg2] ...
+```
 #
 ### [07-file_checks.py](07-file_checks.py)
 
