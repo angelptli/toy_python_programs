@@ -90,7 +90,7 @@ $ python3 utf_id.py [file1] [file2] [file3] ...
 - Run the program using the subprocess module's functions
 - Decorate results using functools module's wraps function
 
-**Usage:**
+**Usage:** <br/>
 Example for running java subprocess
 ```
 python3 sub_what.py [/usr/local/bin/java] [filename] [arg1] [arg2] ...
