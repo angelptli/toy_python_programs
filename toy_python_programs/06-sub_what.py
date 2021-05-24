@@ -7,7 +7,7 @@ def result_decorator(result_func):
 
     @wraps(result_func)
     def wrapper_result(*args):
-        """wrap args_result function"""
+        """Wrap args_result function"""
         print(result_func.__name__)
         print(result_func.__doc__)
 
@@ -45,8 +45,3 @@ if __name__ == '__main__':
     else:
         print('\nInvalid input. Please try again.')
         print('Ex: python3 file.py /usr/local/bin/java file.java arg1...')
-
-"""
-Example usage on command line for java file
-python3 06-sub_what.py /usr/local/bin/java file.java arg1 arg2 ...
-"""

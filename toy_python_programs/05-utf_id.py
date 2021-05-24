@@ -20,7 +20,7 @@ def count_avg_bytes(file):
                     break
 
         # Divide total_bytes with total_chars and return result
-        return (f"Mean Number of Bytes Per Character in "
+        return (f"Average Bytes Required for Each Character in "
                 f"{file}: {total_bytes/total_chars}")
 
     except UnicodeDecodeError:
