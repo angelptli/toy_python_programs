@@ -188,7 +188,7 @@ N/A
 - [stdout](https://docs.python.org/3/library/subprocess.html#subprocess.run)<br/>
 
 [functools module](https://docs.python.org/3/library/functools.html)<br/>
-- [\@functools.wraps]([functools module](https://docs.python.org/3/library/functools.html))
+- [@functools.wraps](https://docs.python.org/3/library/functools.html#functools.wraps)
 
 #### [07-file_checks.py](07-file_checks.py)<br/>
 [concurrent.futures module](https://docs.python.org/3/library/concurrent.futures.html)<br/>
