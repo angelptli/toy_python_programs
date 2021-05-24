@@ -156,62 +156,60 @@ Almost every program here uses the [sys module](https://docs.python.org/3/librar
 
 #### [01-count_lambs.py](01-count_lambs.py)<br/>
 [functools module](https://docs.python.org/3/library/functools.html)<br/>
---- [functools.reduce](https://docs.python.org/3/library/functools.html#functools.reduce)
+&mdash; [functools.reduce](https://docs.python.org/3/library/functools.html#functools.reduce)
 
 #### [02-zig_zag.py](02-zig_zag.py)<br/>
 [itertools module](https://docs.python.org/3/library/itertools.html)<br/>
---- [itertools.chain](https://docs.python.org/3/library/itertools.html#itertools.chain)
+&mdash; [itertools.chain](https://docs.python.org/3/library/itertools.html#itertools.chain)
 
 #### [03-columnize.py](03-columnize.py)<br/>
 [re module](https://www.w3schools.com/python/python_regex.asp)<br/>
---- [re.sub](https://docs.python.org/3/library/re.html#re.sub)<br/>
+&mdash; [re.sub](https://docs.python.org/3/library/re.html#re.sub)<br/>
 
 [textwrap module](https://www.geeksforgeeks.org/textwrap-text-wrapping-filling-python/)<br/>
---- [textwrap.TextWrapper](https://docs.python.org/3/library/textwrap.html#textwrap.TextWrapper)<br/>
---- [textwrap.fill](https://docs.python.org/3/library/textwrap.html#textwrap.fill)
+&mdash; [textwrap.TextWrapper](https://docs.python.org/3/library/textwrap.html#textwrap.TextWrapper)<br/>
+&mdash; [textwrap.fill](https://docs.python.org/3/library/textwrap.html#textwrap.fill)
 
 #### [04-math_dates.py](04-math_dates.py)
 [unittest module](https://docs.python.org/3/library/unittest.html)<br/>
---- [assertEqual](https://docs.python.org/3/library/unittest.html#unittest.TestCase.assertEqual)<br/>
---- [self.assertEqual examples](https://docs.python.org/3/library/unittest.html#basic-example)<br/>
+&mdash; [assertEqual](https://docs.python.org/3/library/unittest.html#unittest.TestCase.assertEqual)<br/>
+&mdash; [self.assertEqual examples](https://docs.python.org/3/library/unittest.html#basic-example)<br/>
 
 [datetime module](https://docs.python.org/3/library/datetime.html)<br/>
---- [datetime.timedelta](https://docs.python.org/3/library/datetime.html#datetime.timedelta)<br/>
---- [datetime.date](https://docs.python.org/3/library/datetime.html#datetime.date)
+&mdash; [datetime.timedelta](https://docs.python.org/3/library/datetime.html#datetime.timedelta)<br/>
+&mdash; [datetime.date](https://docs.python.org/3/library/datetime.html#datetime.date)
 
 #### [05-utf_id.py](05-utf_id.py)<br/>
---- N/A
+&mdash; N/A
 
 #### [06-sub_what.py](06-sub_what.py)<br/>
 [subprocess module](https://docs.python.org/3/library/subprocess.html)<br/>
---- [subprocess.run](https://docs.python.org/3/library/subprocess.html#subprocess.run)<br/>
---- [stdout](https://docs.python.org/3/library/subprocess.html#subprocess.run)<br/>
+&mdash; [subprocess.run](https://docs.python.org/3/library/subprocess.html#subprocess.run)<br/>
+&mdash; [stdout](https://docs.python.org/3/library/subprocess.html#subprocess.run)<br/>
 
 [functools module](https://docs.python.org/3/library/functools.html)<br/>
---- [@functools.wraps](https://docs.python.org/3/library/functools.html#functools.wraps)
+&mdash; [@functools.wraps](https://docs.python.org/3/library/functools.html#functools.wraps)
 
 #### [07-file_checks.py](07-file_checks.py)<br/>
 [concurrent.futures module](https://docs.python.org/3/library/concurrent.futures.html)<br/>
---- [concurrent.futures.ProcessPoolExecutor](https://docs.python.org/3/library/concurrent.futures.html#concurrent.futures.ProcessPoolExecutor)
+&mdash; [concurrent.futures.ProcessPoolExecutor](https://docs.python.org/3/library/concurrent.futures.html#concurrent.futures.ProcessPoolExecutor)
 
 #### [08-turn_json.py](08-turn_json.py)<br/>
 [csv module](https://docs.python.org/3/library/csv.html)<br/>
---- [csv.Sniffer.has_header](https://docs.python.org/3/library/csv.html#csv.Sniffer)<br/>
---- [csv.Sniffer.sniff](https://docs.python.org/3/library/csv.html#csv.Sniffer)<br/>
---- [csv.DictReader](https://docs.python.org/3/library/csv.html#csv.DictReader)<br/>
---- [csv.reader](https://docs.python.org/3/library/csv.html#csv.reader)<br/>
+&mdash; [csv.Sniffer.has_header](https://docs.python.org/3/library/csv.html#csv.Sniffer)<br/>
+&mdash; [csv.Sniffer.sniff](https://docs.python.org/3/library/csv.html#csv.Sniffer)<br/>
+&mdash; [csv.DictReader](https://docs.python.org/3/library/csv.html#csv.DictReader)<br/>
+&mdash; [csv.reader](https://docs.python.org/3/library/csv.html#csv.reader)<br/>
 
 [json module](https://docs.python.org/3/library/json.html)<br/>
---- [json.dumps](https://docs.python.org/3/library/json.html#json.dumps)
+&mdash; [json.dumps](https://docs.python.org/3/library/json.html#json.dumps)
 
 #### [09-id_byte_str.py](09-id_byte_str.py)<br/>
 [ast module](https://docs.python.org/3/library/ast.html)<br/>
---- [ast.literal_eval](https://docs.python.org/3/library/ast.html#ast.literal_eval)<br/>
+&mdash; [ast.literal_eval](https://docs.python.org/3/library/ast.html#ast.literal_eval)<br/>
 
 [concurrent.futures module](https://docs.python.org/3/library/concurrent.futures.html)<br/>
--- [concurrent.futures.ProcessPoolExecutor](https://docs.python.org/3/library/concurrent.futures.html#concurrent.futures.ProcessPoolExecutor)
-
-&mdash; test line
+&mdash; [concurrent.futures.ProcessPoolExecutor](https://docs.python.org/3/library/concurrent.futures.html#concurrent.futures.ProcessPoolExecutor)
 
 ## Credits
 This is a work in process by Angel Li [@angelptli](https://github.com/angelptli)
