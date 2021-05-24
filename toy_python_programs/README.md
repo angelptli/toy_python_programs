@@ -155,7 +155,7 @@ $ python3 id_byte_str.py [file1] [file2] [file3] ...
 Almost every program here uses the [sys module](https://docs.python.org/3/library/sys.html) for passing command line arguments into the program. Specific definition link: [sys.argv](https://docs.python.org/3/library/sys.html#sys.argv).
 
 #### [01-count_lambs.py](01-count_lambs.py)<br/>
-[functools](https://docs.python.org/3/library/functools.html)<br/>
+[functools module](https://docs.python.org/3/library/functools.html)<br/>
 - [functools.reduce](https://docs.python.org/3/library/functools.html#functools.reduce)
 
 #### [02-zig_zag.py](02-zig_zag.py)<br/>
@@ -165,6 +165,7 @@ Almost every program here uses the [sys module](https://docs.python.org/3/librar
 #### [03-columnize.py](03-columnize.py)<br/>
 [re module](https://www.w3schools.com/python/python_regex.asp)<br/>
 - [re.sub](https://docs.python.org/3/library/re.html#re.sub)<br/>
+
 [textwrap module](https://www.geeksforgeeks.org/textwrap-text-wrapping-filling-python/)<br/>
 - [textwrap.TextWrapper](https://docs.python.org/3/library/textwrap.html#textwrap.TextWrapper)<br/>
 - [textwrap.fill](https://docs.python.org/3/library/textwrap.html#textwrap.fill)
@@ -173,6 +174,7 @@ Almost every program here uses the [sys module](https://docs.python.org/3/librar
 [unittest module](https://docs.python.org/3/library/unittest.html)<br/>
 - [assertEqual](https://docs.python.org/3/library/unittest.html#unittest.TestCase.assertEqual)<br/>
 - [self.assertEqual examples](https://docs.python.org/3/library/unittest.html#basic-example)<br/>
+
 [datetime module](https://docs.python.org/3/library/datetime.html)<br/>
 - [datetime.timedelta](https://docs.python.org/3/library/datetime.html#datetime.timedelta)<br/>
 - [datetime.date](https://docs.python.org/3/library/datetime.html#datetime.date)
@@ -182,10 +184,11 @@ N/A
 
 #### [06-sub_what.py](06-sub_what.py)<br/>
 [subprocess module](https://docs.python.org/3/library/subprocess.html)<br/>
-[functools module](https://docs.python.org/3/library/functools.html)<br/>
 - [subprocess.run](https://docs.python.org/3/library/subprocess.html#subprocess.run)<br/>
 - [stdout](https://docs.python.org/3/library/subprocess.html#subprocess.run)<br/>
-- [@functools.wraps]([functools module](https://docs.python.org/3/library/functools.html))
+
+[functools module](https://docs.python.org/3/library/functools.html)<br/>
+- [\@functools.wraps]([functools module](https://docs.python.org/3/library/functools.html))
 
 #### [07-file_checks.py](07-file_checks.py)<br/>
 [concurrent.futures module](https://docs.python.org/3/library/concurrent.futures.html)<br/>
@@ -197,12 +200,14 @@ N/A
 - [csv.Sniffer.sniff](https://docs.python.org/3/library/csv.html#csv.Sniffer)<br/>
 - [csv.DictReader](https://docs.python.org/3/library/csv.html#csv.DictReader)<br/>
 - [csv.reader](https://docs.python.org/3/library/csv.html#csv.reader)<br/>
+
 [json module](https://docs.python.org/3/library/json.html)<br/>
 - [json.dumps](https://docs.python.org/3/library/json.html#json.dumps)
 
 #### [09-id_byte_str.py](09-id_byte_str.py)<br/>
 [ast module](https://docs.python.org/3/library/ast.html)<br/>
 - [ast.literal_eval](https://docs.python.org/3/library/ast.html#ast.literal_eval)<br/>
+
 [concurrent.futures module](https://docs.python.org/3/library/concurrent.futures.html)<br/>
 - [concurrent.futures.ProcessPoolExecutor](https://docs.python.org/3/library/concurrent.futures.html#concurrent.futures.ProcessPoolExecutor)
 ## Credits
