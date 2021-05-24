@@ -154,19 +154,19 @@ $ python3 id_byte_str.py [file1] [file2] [file3] ...
 ## Docs
 Almost every program here uses the [sys module](https://docs.python.org/3/library/sys.html) for passing command line arguments into the program. Specific definition link: [sys.argv](https://docs.python.org/3/library/sys.html#sys.argv).
 
-[01-count_lambs.py](01-count_lambs.py)<br/>
+#### [01-count_lambs.py](01-count_lambs.py)<br/>
 Module:<br/>
   [functools](https://docs.python.org/3/library/functools.html)<br/>
 Definition Link:<br/>
   [functools.reduce](https://docs.python.org/3/library/functools.html#functools.reduce)
 
-[02-zig_zag.py](02-zig_zag.py)<br/>
+#### [02-zig_zag.py](02-zig_zag.py)<br/>
 Module:<br/>
   [itertools module](https://docs.python.org/3/library/itertools.html)<br/>
 Definition Link:<br/>
   [itertools.chain](https://docs.python.org/3/library/itertools.html#itertools.chain)
 
-[03-columnize.py](03-columnize.py)<br/>
+#### [03-columnize.py](03-columnize.py)<br/>
 Module:<br/>
   [re module](https://www.w3schools.com/python/python_regex.asp)<br/>
   [textwrap module](https://www.geeksforgeeks.org/textwrap-text-wrapping-filling-python/)<br/>
@@ -175,7 +175,7 @@ Definition Link:<br/>
   [textwrap.TextWrapper](https://docs.python.org/3/library/textwrap.html#textwrap.TextWrapper)<br/>
   [textwrap.fill](https://docs.python.org/3/library/textwrap.html#textwrap.fill)
 
-[04-math_dates.py](04-math_dates.py)
+#### [04-math_dates.py](04-math_dates.py)
 
 Module:<br/>
   [unittest module](https://docs.python.org/3/library/unittest.html)<br/>
@@ -186,10 +186,10 @@ Definition Link:<br/>
   [datetime.timedelta](https://docs.python.org/3/library/datetime.html#datetime.timedelta)<br/>
   [datetime.date](https://docs.python.org/3/library/datetime.html#datetime.date)
 
-[05-utf_id.py](05-utf_id.py)<br/>
+#### [05-utf_id.py](05-utf_id.py)<br/>
 N/A
 
-[06-sub_what.py](06-sub_what.py)<br/>
+#### [06-sub_what.py](06-sub_what.py)<br/>
 Module:<br/>
   [subprocess module](https://docs.python.org/3/library/subprocess.html)<br/>
   [functools module](https://docs.python.org/3/library/functools.html)<br/>
@@ -198,13 +198,13 @@ Definition Link:<br/>
   [stdout](https://docs.python.org/3/library/subprocess.html#subprocess.run)<br/>
   [@functools.wraps]([functools module](https://docs.python.org/3/library/functools.html))
 
-[07-file_checks.py](07-file_checks.py)<br/>
+#### [07-file_checks.py](07-file_checks.py)<br/>
 Module:<br/>
   [concurrent.futures module](https://docs.python.org/3/library/concurrent.futures.html)<br/>
 Definition Link:<br/>
   [concurrent.futures.ProcessPoolExecutor](https://docs.python.org/3/library/concurrent.futures.html#concurrent.futures.ProcessPoolExecutor)
 
-[08-turn_json.py](08-turn_json.py)<br/>
+#### [08-turn_json.py](08-turn_json.py)<br/>
 Module:<br/>
   [csv module](https://docs.python.org/3/library/csv.html)<br/>
   [json module](https://docs.python.org/3/library/json.html)<br/>
@@ -215,7 +215,7 @@ Definition Link:<br/>
   [csv.reader](https://docs.python.org/3/library/csv.html#csv.reader)<br/>
   [json.dumps](https://docs.python.org/3/library/json.html#json.dumps)
 
-[09-id_byte_str.py](09-id_byte_str.py)<br/>
+#### [09-id_byte_str.py](09-id_byte_str.py)<br/>
 Module:<br/>
   [ast module](https://docs.python.org/3/library/ast.html)<br/>
   [concurrent.futures module](https://docs.python.org/3/library/concurrent.futures.html)<br/>
