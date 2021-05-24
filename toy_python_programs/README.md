@@ -60,7 +60,9 @@ $ python3 columnize.py [file]
 - Self assert output using unittest module's assertEqual function
 
 **Usage:**
-N/A
+```
+python3 math_dates
+```
 #
 ### [05-utf_id.py](05-utf_id.py)
 
@@ -150,7 +152,50 @@ $ python3 id_byte_str.py [file1] [file2] [file3] ...
 ```
 #
 ## Docs
-TBA
+Almost every program here uses the [sys module](https://docs.python.org/3/library/sys.html) for passing command line arguments into the program. Specific definition link: [sys.argv](https://docs.python.org/3/library/sys.html#sys.argv).
 
+[01-count_lambs.py](01-count_lambs.py)
+- [functools module](https://docs.python.org/3/library/functools.html)
+    - [functools.reduce]https://docs.python.org/3/library/functools.html#functools.reduce
+[02-zig_zag.py](02-zig_zag.py)
+- [itertools module](https://docs.python.org/3/library/itertools.html)
+    - [itertools.chain](https://docs.python.org/3/library/itertools.html#itertools.chain)
+[03-columnize.py](03-columnize.py)
+- [re module](https://www.w3schools.com/python/python_regex.asp)
+    - [re.sub](https://docs.python.org/3/library/re.html#re.sub)
+- [textwrap module](https://www.geeksforgeeks.org/textwrap-text-wrapping-filling-python/)
+    - [textwrap.TextWrapper](https://docs.python.org/3/library/textwrap.html#textwrap.TextWrapper)
+    - [textwrap.fill](https://docs.python.org/3/library/textwrap.html#textwrap.fill)
+[04-math_dates.py](04-math_dates.py)
+- [unittest module](https://docs.python.org/3/library/unittest.html)
+    - [assertEqual](https://docs.python.org/3/library/unittest.html#unittest.TestCase.assertEqual)
+    - [self.assertEqual examples](https://docs.python.org/3/library/unittest.html#basic-example)
+- [datetime module](https://docs.python.org/3/library/datetime.html)
+    - [datetime.timedelta](https://docs.python.org/3/library/datetime.html#datetime.timedelta)
+    - [datetime.date](https://docs.python.org/3/library/datetime.html#datetime.date)
+[05-utf_id.py](05-utf_id.py)
+- N/A
+[06-sub_what.py](06-sub_what.py)
+- [subprocess module](https://docs.python.org/3/library/subprocess.html)
+    - [subprocess.run](https://docs.python.org/3/library/subprocess.html#subprocess.run)
+    - [stdout](https://docs.python.org/3/library/subprocess.html#subprocess.run)
+- [functools module](https://docs.python.org/3/library/functools.html)
+    - [@functools.wraps]([functools module](https://docs.python.org/3/library/functools.html))
+[07-file_checks.py](07-file_checks.py)
+- [concurrent.futures module](https://docs.python.org/3/library/concurrent.futures.html)
+    - [concurrent.futures.ProcessPoolExecutor](https://docs.python.org/3/library/concurrent.futures.html#concurrent.futures.ProcessPoolExecutor)
+[08-turn_json.py](08-turn_json.py)
+- [csv module](https://docs.python.org/3/library/csv.html)
+    - [csv.Sniffer.has_header](https://docs.python.org/3/library/csv.html#csv.Sniffer)
+    - [csv.Sniffer.sniff](https://docs.python.org/3/library/csv.html#csv.Sniffer)
+    - [csv.DictReader](https://docs.python.org/3/library/csv.html#csv.DictReader)
+    - [csv.reader](https://docs.python.org/3/library/csv.html#csv.reader)
+- [json module](https://docs.python.org/3/library/json.html)
+    - [json.dumps](https://docs.python.org/3/library/json.html#json.dumps)
+[09-id_byte_str.py](09-id_byte_str.py)
+- [ast module](https://docs.python.org/3/library/ast.html)
+    - [ast.literal_eval](https://docs.python.org/3/library/ast.html#ast.literal_eval)
+- [concurrent.futures module](https://docs.python.org/3/library/concurrent.futures.html)
+    - [concurrent.futures.ProcessPoolExecutor](https://docs.python.org/3/library/concurrent.futures.html#concurrent.futures.ProcessPoolExecutor)
 ## Credits
 This is a work in process by Angel Li [@angelptli](https://github.com/angelptli)
