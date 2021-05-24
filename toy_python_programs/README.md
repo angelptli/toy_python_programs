@@ -153,15 +153,15 @@ $ python3 id_byte_str.py [file1] [file2] [file3] ...
 #
 # Docs
 Almost every program here uses the [sys](https://docs.python.org/3/library/sys.html) module for passing command line arguments into the program. Specific definition link: [sys.argv](https://docs.python.org/3/library/sys.html#sys.argv).
-
+#
 ### [01-count_lambs.py](01-count_lambs.py)<br/>
 [functools](https://docs.python.org/3/library/functools.html)<br/>
 &nbsp;&nbsp;&nbsp;&nbsp; &mdash; [functools.reduce](https://docs.python.org/3/library/functools.html#functools.reduce)
-
+#
 ### [02-zig_zag.py](02-zig_zag.py)<br/>
 [itertools](https://docs.python.org/3/library/itertools.html)<br/>
 &nbsp;&nbsp;&nbsp;&nbsp; &mdash; [itertools.chain](https://docs.python.org/3/library/itertools.html#itertools.chain)
-
+#
 ### [03-columnize.py](03-columnize.py)<br/>
 [re](https://www.w3schools.com/python/python_regex.asp)<br/>
 &nbsp;&nbsp;&nbsp;&nbsp; &mdash; [re.sub](https://docs.python.org/3/library/re.html#re.sub)<br/>
@@ -169,7 +169,7 @@ Almost every program here uses the [sys](https://docs.python.org/3/library/sys.h
 [textwrap](https://www.geeksforgeeks.org/textwrap-text-wrapping-filling-python/)<br/>
 &nbsp;&nbsp;&nbsp;&nbsp; &mdash; [textwrap.TextWrapper](https://docs.python.org/3/library/textwrap.html#textwrap.TextWrapper)<br/>
 &nbsp;&nbsp;&nbsp;&nbsp; &mdash; [textwrap.fill](https://docs.python.org/3/library/textwrap.html#textwrap.fill)
-
+#
 ### [04-math_dates.py](04-math_dates.py)
 [unittest](https://docs.python.org/3/library/unittest.html)<br/>
 &nbsp;&nbsp;&nbsp;&nbsp; &mdash; [assertEqual](https://docs.python.org/3/library/unittest.html#unittest.TestCase.assertEqual)<br/>
@@ -178,10 +178,10 @@ Almost every program here uses the [sys](https://docs.python.org/3/library/sys.h
 [datetime](https://docs.python.org/3/library/datetime.html)<br/>
 &nbsp;&nbsp;&nbsp;&nbsp; &mdash; [datetime.timedelta](https://docs.python.org/3/library/datetime.html#datetime.timedelta)<br/>
 &nbsp;&nbsp;&nbsp;&nbsp; &mdash; [datetime.date](https://docs.python.org/3/library/datetime.html#datetime.date)
-
+#
 ### [05-utf_id.py](05-utf_id.py)<br/>
 &nbsp;&nbsp;&nbsp;&nbsp; &mdash; N/A
-
+#
 ### [06-sub_what.py](06-sub_what.py)<br/>
 [subprocess](https://docs.python.org/3/library/subprocess.html)<br/>
 &nbsp;&nbsp;&nbsp;&nbsp; &mdash; [subprocess.run](https://docs.python.org/3/library/subprocess.html#subprocess.run)<br/>
@@ -189,11 +189,11 @@ Almost every program here uses the [sys](https://docs.python.org/3/library/sys.h
 
 [functools](https://docs.python.org/3/library/functools.html)<br/>
 &nbsp;&nbsp;&nbsp;&nbsp; &mdash; [@functools.wraps](https://docs.python.org/3/library/functools.html#functools.wraps)
-
+#
 ### [07-file_checks.py](07-file_checks.py)<br/>
 [concurrent.futures](https://docs.python.org/3/library/concurrent.futures.html)<br/>
 &nbsp;&nbsp;&nbsp;&nbsp; &mdash; [concurrent.futures.ProcessPoolExecutor](https://docs.python.org/3/library/concurrent.futures.html#concurrent.futures.ProcessPoolExecutor)
-
+#
 ### [08-turn_json.py](08-turn_json.py)<br/>
 [csv](https://docs.python.org/3/library/csv.html)<br/>
 &nbsp;&nbsp;&nbsp;&nbsp; &mdash; [csv.Sniffer.has_header](https://docs.python.org/3/library/csv.html#csv.Sniffer)<br/>
@@ -203,7 +203,7 @@ Almost every program here uses the [sys](https://docs.python.org/3/library/sys.h
 
 [json](https://docs.python.org/3/library/json.html)<br/>
 &nbsp;&nbsp;&nbsp;&nbsp; &mdash; [json.dumps](https://docs.python.org/3/library/json.html#json.dumps)
-
+#
 ### [09-id_byte_str.py](09-id_byte_str.py)<br/>
 [ast](https://docs.python.org/3/library/ast.html)<br/>
 &nbsp;&nbsp;&nbsp;&nbsp; &mdash; [ast.literal_eval](https://docs.python.org/3/library/ast.html#ast.literal_eval)<br/>
