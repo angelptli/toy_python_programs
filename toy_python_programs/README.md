@@ -152,7 +152,7 @@ $ python3 id_byte_str.py [file1] [file2] [file3] ...
 ```
 #
 # Docs
-Almost every program here uses the [sys](https://docs.python.org/3/library/sys.html) module for passing command line arguments into the program. Specific definition link: [sys.argv](https://docs.python.org/3/library/sys.html#sys.argv).
+Almost every program here uses the [sys](https://docs.python.org/3/library/sys.html) module for passing command line arguments into the program. Specific definition link &mdash; [sys.argv](https://docs.python.org/3/library/sys.html#sys.argv).
 #
 ### [01-count_lambs.py](01-count_lambs.py)<br/>
 [functools](https://docs.python.org/3/library/functools.html)<br/>
@@ -210,6 +210,8 @@ Almost every program here uses the [sys](https://docs.python.org/3/library/sys.h
 
 [concurrent.futures](https://docs.python.org/3/library/concurrent.futures.html)<br/>
 &nbsp;&nbsp;&nbsp;&nbsp; &mdash; [concurrent.futures.ProcessPoolExecutor](https://docs.python.org/3/library/concurrent.futures.html#concurrent.futures.ProcessPoolExecutor)
+#
+[Return to top of page](#toy-python-programs)
 #
 ## Credits
 This is a work in process by Angel Li [@angelptli](https://github.com/angelptli)
