@@ -187,7 +187,7 @@ Almost every program here uses the [sys](https://docs.python.org/3/library/sys.h
 ### [06-sub_what.py](06-sub_what.py)<br/>
 [subprocess](https://docs.python.org/3/library/subprocess.html)<br/>
 &nbsp;&nbsp;&nbsp;&nbsp; &mdash; [subprocess.run](https://docs.python.org/3/library/subprocess.html#subprocess.run)<br/>
-&nbsp;&nbsp;&nbsp;&nbsp; &mdash; [stdout](https://docs.python.org/3/library/subprocess.html#subprocess.run)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp; &mdash; [stdout](https://docs.python.org/3/library/subprocess.html#subprocess.CompletedProcess.stdout)<br/>
 
 [functools](https://docs.python.org/3/library/functools.html)<br/>
 &nbsp;&nbsp;&nbsp;&nbsp; &mdash; [@functools.wraps](https://docs.python.org/3/library/functools.html#functools.wraps)
