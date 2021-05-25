@@ -151,6 +151,8 @@ $ python3 turn_json.py [file1] [file2] [file3] ...
 $ python3 id_byte_str.py [file1] [file2] [file3] ...
 ```
 #
+[Return to top of page](#toy-python-programs)
+#
 # Docs
 Almost every program here uses the [sys](https://docs.python.org/3/library/sys.html) module for passing command line arguments into the program. Specific definition link &mdash; [sys.argv](https://docs.python.org/3/library/sys.html#sys.argv).
 #
