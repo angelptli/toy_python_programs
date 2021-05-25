@@ -40,5 +40,5 @@ $ python3 zig_zag.py 'ლ(ಠ益ಠ)ლ', '¡'
 ```
 ```
 #
-[Return to top of page](#toy-python-programs)
+[Return to top of page](#example-output)
 #
