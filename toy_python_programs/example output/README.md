@@ -107,6 +107,20 @@ word word word word word word
 #
 ### [04-math_dates.py](../04-math_dates.py)
 ```
+$ python3 math_dates.py
+Adding 20 days to 2021-12-01 should result in 2021-12-21
+Subtracting 20 days from 2021-12-01 should result in 2021-11-11
+
+Unittest Results:
+test_add_days (__main__.TestDateMath)
+Confirm that the result of adding 20 days returned 2021-12-21 ... ok
+test_minus_days (__main__.TestDateMath)
+Confirm that the result of taking away 20 days returned 2021-11-11 ... ok
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.001s
+
+OK
 ```
 #
 ### [05-utf_id.py](../05-utf_id.py)
