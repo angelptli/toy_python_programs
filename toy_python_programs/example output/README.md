@@ -126,8 +126,8 @@ OK
 ### [05-utf_id.py](../05-utf_id.py)
 ```
 $ python3 utf_id.py utf8_file file.py utf16_file utf32_file
-Average Bytes Required for Each Character in arabic_utf8: 1.7925636007827788
-Average Bytes Required for Each Character in test_enc.py: 1.0
+Average Bytes Required for Each Character in utf8_file: 1.7925636007827788
+Average Bytes Required for Each Character in file.py: 1.0
 This program only accepts valid ASCII and UTF-8 files.
 This program only accepts valid ASCII and UTF-8 files.
 ```
@@ -154,14 +154,14 @@ Integer input doubled:
 #
 ### [07-file_checks.py](../07-file_checks.py)
 ```
-$ python3 test.py arabic_utf8 hanzi_utf16 hanzi_utf32 checkin.py
-File: arabic_utf8 ... is encoded in UTF-8
+$ python3 file_checks.py utf8_file utf16_file utf32_file file.py
+File: utf8_file ... is encoded in UTF-8
 --------------------------------------------------------------------------------
-File: hanzi_utf16 ... is encoded in UTF-16
+File: utf16_file ... is encoded in UTF-16
 --------------------------------------------------------------------------------
-File: hanzi_utf32 ... is encoded in UTF-32
+File: utf32_file ... is encoded in UTF-32
 --------------------------------------------------------------------------------
-File: checkin.py ... is encoded in UTF-8
+File: file.py ... is encoded in UTF-8
 --------------------------------------------------------------------------------
 ```
 #
