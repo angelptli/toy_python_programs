@@ -3,6 +3,15 @@
 #
 ### [01-count_lambs.py](../01-count_lambs.py)
 ```
+$ python3 count_lambs.py novel.txt chapter.txt
+File: novel.txt
+Result: 4319
+
+--------------------------------------------------------------------------------
+File: chapter.txt
+Result: 7
+
+--------------------------------------------------------------------------------
 ```
 #
 ### [02-zig_zag.py](../02-zig_zag.py)
