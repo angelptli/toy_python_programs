@@ -143,7 +143,7 @@ words
 here
 ```
 ```
-$ python3 sub_what.py /usr/bin/bash ./twice.sh 30 40 100
+$ python3 sub_what.py /usr/bin/bash ./double.sh 30 40 100
 File: ./twice.sh
 Here is the result of your file and args using subprocess:
 Integer input doubled:
