@@ -12,7 +12,7 @@ def result_decorator(result_func):
         for item in args:
             print('File:', item[1])
 
-        print(result_func.__doc__)
+        print(result_func.__doc__ + ':')
 
         # Calls function that uses subprocess and displays output
         result_func(*args)
