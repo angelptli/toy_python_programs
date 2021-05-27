@@ -144,7 +144,7 @@ here
 ```
 ```
 $ python3 sub_what.py /usr/bin/bash ./double.sh 30 40 100
-File: ./twice.sh
+File: ./double.sh
 Here is the result of your file and args using subprocess:
 Integer input doubled:
 60
@@ -154,6 +154,7 @@ Integer input doubled:
 #
 ### [07-file_checks.py](../07-file_checks.py)
 ```
+
 ```
 #
 ### [08-turn_json.py](../08-turn_json.py)
