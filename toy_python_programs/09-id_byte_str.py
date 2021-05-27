@@ -41,7 +41,7 @@ def get_status(bytes_list):
     try:
         for item in bytes_list:
             item.decode('utf8')
-        return 'UTF-8 byte strings\n'
+        return 'UTF-8 byte strings'
 
     except UnicodeDecodeError:
         pass
@@ -53,7 +53,7 @@ def get_status(bytes_list):
     try:
         for item in bytes_list:
             item.decode('utf32')
-        return 'UTF-32 byte strings\n'
+        return 'UTF-32 byte strings'
 
     except UnicodeDecodeError:
         pass
@@ -63,10 +63,10 @@ def get_status(bytes_list):
     try:
         for item in bytes_list:
             item.decode('utf16')
-        return 'UTF-16 byte strings\n'
+        return 'UTF-16 byte strings'
 
     except UnicodeDecodeError:
-        print('Is NOT a proper UTF file\n')
+        print('Is NOT a proper UTF file')
     except (AttributeError, TypeError):
         print()
 
@@ -111,7 +111,7 @@ def get_decoded_str(bytes_list):
         return string
         
     except UnicodeDecodeError:
-        print('Is NOT a proper UTF file\n')
+        print('Is NOT a proper UTF file')
     except (AttributeError, TypeError):
         print()
 
@@ -129,16 +129,19 @@ def main():
             bytes_strings = executor.submit(get_file_content, arg)
             bytes_strings = bytes_strings.result()
 
-            # Determine file's UTF status by attempts at decoding
+            # Determine file's UTF status by attempts at decoding and
+            # get decoded byte strings
             utf_result = executor.submit(get_status, bytes_strings)
+            decode_result = executor.submit(get_decoded_str, bytes_strings)
 
             # Return results
             if utf_result.result() is not None:
                 print(utf_result.result())
+            if decode_result.result() is not None:
+                print('Decoded:', decode_result.result() + '\n')
+
     else:
         print('Enter at least one file as a command line argument')
-
-    # Other examples of how to use this program:
 
     # Here's an example of a simple usage to determine status of one file
     # content = get_file_content(sys.argv[1])
