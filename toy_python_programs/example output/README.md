@@ -93,7 +93,7 @@ $ python3 zig_zag.py 'ლ(ಠ益ಠ)ლ', '¡'
 #
 ### [03-columnize.py](../03-columnize.py)
 ```
-$ python3 columnize.py words.txt
+$ python3 columnize.py words_file
 word word word word word word word word word word word word word word word word
 word word word word word word word word word word word word word word word word
 word word word word word word word word word word word word word word word word
@@ -125,6 +125,11 @@ OK
 #
 ### [05-utf_id.py](../05-utf_id.py)
 ```
+$ python3 utf_id.py utf8_file file.py utf16_file utf32_file
+Average Bytes Required for Each Character in arabic_utf8: 1.7925636007827788
+Average Bytes Required for Each Character in test_enc.py: 1.0
+This program only accepts valid ASCII and UTF-8 files.
+This program only accepts valid ASCII and UTF-8 files.
 ```
 #
 ### [06-sub_what.py](../06-sub_what.py)
