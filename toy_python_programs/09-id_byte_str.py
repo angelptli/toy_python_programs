@@ -147,12 +147,6 @@ def main():
     # if result is not None:
     #     print(result)
 
-    # To get the decoded byte strings, use get_decoded_str function
-    # content = get_file_content(sys.argv[1])
-    # string = get_decoded_str(content)
-    
-    # if string is not None:
-    #     print(string)
 
 if __name__ == '__main__':
     main()
