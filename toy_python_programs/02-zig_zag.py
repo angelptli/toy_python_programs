@@ -4,7 +4,7 @@ import itertools as it
 
 def print_zig_zag(main_pattern, pole_pattern):
     """Use multiple ranges and types of spacing to print strings in a zig zag"""
-    print(*(map(lambda x: (x * '   ') + main_pattern + '\n\t   ' + pole_pattern,
+    print(*(map(lambda x: (x * '   ') + main_pattern + '\n\t    ' + pole_pattern,
                 it.chain(range(6), range(5, -1, -1),
                          range(6), range(5, -1, -1),
                          range(6), range(5, -1, -1)))), sep='\n')
