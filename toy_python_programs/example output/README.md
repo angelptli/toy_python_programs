@@ -225,7 +225,6 @@ no_header.csv as JSON object:
 ```
 #
 ### [09-id_byte_str.py](../09-id_byte_str.py)
-Get UTF status using program's get_status() function
 ```
 $ python3 test.py byte_str byte_str_utf16 byte_str_utf32
 byte_str
