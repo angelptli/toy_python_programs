@@ -93,6 +93,16 @@ $ python3 zig_zag.py 'ლ(ಠ益ಠ)ლ', '¡'
 #
 ### [03-columnize.py](../03-columnize.py)
 ```
+$ python3 columnize.py words.txt
+word word word word word word word word word word word word word word word word
+word word word word word word word word word word word word word word word word
+word word word word word word word word word word word word word word word word
+word word word word word word word word word word word word word word word word
+word word word word word word word word word word word word word word word word
+word word word word word word word word word word word word word word word word
+word word word word word word word word word word word word word word word word
+word word word word word word word word word word word word word word word word
+word word word word word word
 ```
 #
 ### [04-math_dates.py](../04-math_dates.py)
