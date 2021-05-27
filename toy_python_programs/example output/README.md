@@ -81,7 +81,6 @@ $ python3 zig_zag.py 'ლ(ಠ益ಠ)ლ', '¡'
 ლ(ಠ益ಠ)ლ,
             ¡
 ```
-# ![](/images/count-lambs-output.png)
 #
 ### [03-columnize.py](../03-columnize.py)
 ```
