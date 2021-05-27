@@ -225,7 +225,35 @@ no_header.csv as JSON object:
 ```
 #
 ### [09-id_byte_str.py](../09-id_byte_str.py)
+Get UTF status using program's get_status() function
 ```
+$ python3 test.py byte_str byte_str_utf16 byte_str_utf32
+byte_str
+---------
+UTF-8 byte strings
+
+byte_str_utf16
+---------------
+UTF-16 byte strings
+
+byte_str_utf32
+---------------
+UTF-32 byte strings
+```
+Get decoded byte strings using program's get_decoded_str() function
+```
+$ python3 test.py byte_str byte_str_utf16 byte_str_utf32
+byte_str
+---------
+跑到縣衙 跑到縣衙
+
+byte_str_utf16
+---------------
+popcorn
+
+byte_str_utf32
+---------------
+popcorn! popcorn! Eat popcorn during the movie.
 ```
 #
 [Return to top of page](#example-output)
