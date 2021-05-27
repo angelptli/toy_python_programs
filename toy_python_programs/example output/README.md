@@ -154,7 +154,15 @@ Integer input doubled:
 #
 ### [07-file_checks.py](../07-file_checks.py)
 ```
-
+$ python3 test.py arabic_utf8 hanzi_utf16 hanzi_utf32 checkin.py
+File: arabic_utf8 ... is encoded in UTF-8
+--------------------------------------------------------------------------------
+File: hanzi_utf16 ... is encoded in UTF-16
+--------------------------------------------------------------------------------
+File: hanzi_utf32 ... is encoded in UTF-32
+--------------------------------------------------------------------------------
+File: checkin.py ... is encoded in UTF-8
+--------------------------------------------------------------------------------
 ```
 #
 ### [08-turn_json.py](../08-turn_json.py)
