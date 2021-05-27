@@ -8,10 +8,13 @@ def result_decorator(result_func):
     @wraps(result_func)
     def wrapper_result(*args):
         """Wrap args_result function"""
-        print(result_func.__name__)
+        # Print input file name
+        for item in args:
+            print('File:', item[1])
+
         print(result_func.__doc__)
 
-        # calls function that uses subprocess and displays output
+        # Calls function that uses subprocess and displays output
         result_func(*args)
 
     return wrapper_result
@@ -24,7 +27,6 @@ def args_result(the_args):
     process = subprocess.run(the_args, check=True, universal_newlines=True)
     output = process.stdout
 
-    # display output
     return output
 
 
@@ -41,7 +43,3 @@ if __name__ == '__main__':
     except FileNotFoundError:
         print('Please enter the proper sys args. -> ',
               'Ex: python3 file.py /usr/local/bin/java file.java arg1...')
-
-    else:
-        print('\nInvalid input. Please try again.')
-        print('Ex: python3 file.py /usr/local/bin/java file.java arg1...')
