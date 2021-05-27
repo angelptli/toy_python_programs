@@ -216,4 +216,4 @@ Almost every program here uses the [sys](https://docs.python.org/3/library/sys.h
 [Return to top of page](#toy-python-programs)
 #
 ## Credits
-This is a work in process by Angel Li [@angelptli](https://github.com/angelptli)
+Work is owned and maintained by Angel Li [@angelptli](https://github.com/angelptli)

@@ -9,4 +9,4 @@
 - [Alpaca image from pngtree](https://pngtree.com/freepng/gray-cute-illustration-hand-painted-alpaca_3839821.html)
 
 ## Credits
-This is a work in process by Angel Li [@angelptli](https://github.com/angelptli)
+Work is owned and maintained by Angel Li [@angelptli](https://github.com/angelptli)

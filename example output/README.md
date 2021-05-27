@@ -1,7 +1,7 @@
 ## Example Output
 **Note:** The toy python programs are command line friendly. They have been tested in Linux. Usage examples are easily translated for testing in Windows and Mac.
 #
-### [01-count_lambs.py](../01-count_lambs.py)
+### [01-count_lambs.py](../toy_python_programs/01-count_lambs.py)
 ```
 $ python3 count_lambs.py novel.txt chapter.txt
 File: novel.txt
@@ -14,7 +14,7 @@ Result: 7
 --------------------------------------------------------------------------------
 ```
 #
-### [02-zig_zag.py](../02-zig_zag.py)
+### [02-zig_zag.py](../toy_python_programs/02-zig_zag.py)
 ```
 $ python3 zig_zag.py 'ლ(ಠ益ಠ)ლ', '¡'
 ლ(ಠ益ಠ)ლ,
@@ -91,7 +91,7 @@ $ python3 zig_zag.py 'ლ(ಠ益ಠ)ლ', '¡'
             ¡
 ```
 #
-### [03-columnize.py](../03-columnize.py)
+### [03-columnize.py](../toy_python_programs/03-columnize.py)
 ```
 $ python3 columnize.py words.txt
 word word word word word word word word word word word word word word word word
@@ -105,7 +105,7 @@ word word word word word word word word word word word word word word word word
 word word word word word word
 ```
 #
-### [04-math_dates.py](../04-math_dates.py)
+### [04-math_dates.py](../toy_python_programs/04-math_dates.py)
 ```
 $ python3 math_dates.py
 Adding 20 days to 2021-12-01 should result in 2021-12-21
@@ -123,7 +123,7 @@ Ran 2 tests in 0.001s
 OK
 ```
 #
-### [05-utf_id.py](../05-utf_id.py)
+### [05-utf_id.py](../toy_python_programs/05-utf_id.py)
 ```
 $ python3 utf_id.py utf8_file file.py utf16_file utf32_file
 Average Bytes Required for Each Character in utf8_file: 1.7925636007827788
@@ -132,7 +132,7 @@ This program only accepts valid ASCII and UTF-8 files.
 This program only accepts valid ASCII and UTF-8 files.
 ```
 #
-### [06-sub_what.py](../06-sub_what.py)
+### [06-sub_what.py](../toy_python_programs/06-sub_what.py)
 ```
 $ python3 sub_what.py /usr/local/bin/java hwjava.java printed some words here
 File: hwjava.java
@@ -152,7 +152,7 @@ Integer input doubled:
 200
 ```
 #
-### [07-file_checks.py](../07-file_checks.py)
+### [07-file_checks.py](../toy_python_programs/07-file_checks.py)
 ```
 $ python3 file_checks.py utf8_file utf16_file utf32_file file.py
 File: utf8_file ... is encoded in UTF-8
@@ -165,7 +165,7 @@ File: file.py ... is encoded in UTF-8
 --------------------------------------------------------------------------------
 ```
 #
-### [08-turn_json.py](../08-turn_json.py)
+### [08-turn_json.py](../toy_python_programs/08-turn_json.py)
 ```
 $ python3 test.py greetings.csv no_header.csv
 =========================================================
@@ -224,7 +224,7 @@ no_header.csv as JSON object:
 
 ```
 #
-### [09-id_byte_str.py](../09-id_byte_str.py)
+### [09-id_byte_str.py](../toy_python_programs/09-id_byte_str.py)
 ```
 $ python3 test.py byte_str byte_str_utf16 byte_str_utf32
 byte_str
