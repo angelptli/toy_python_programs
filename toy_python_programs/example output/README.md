@@ -167,6 +167,61 @@ File: file.py ... is encoded in UTF-8
 #
 ### [08-turn_json.py](../08-turn_json.py)
 ```
+$ python3 test.py greetings.csv no_header.csv
+=========================================================
+greetings.csv as JSON object:
+{
+    "Record 1": {
+        "Greeting": "Hi",
+        "First Name": "SamÆ",
+        "Question": "Do you like",
+        "Quantity": "much",
+        "Food Item": "tuna"
+    },
+    "Record 2": {
+        "Greeting": "Howdy",
+        "First Name": "Bobbië",
+        "Question": "Would you like",
+        "Quantity": "some",
+        "Food Item": "celery"
+    },
+    "Record 3": {
+        "Greeting": "Hey",
+        "First Name": "Anderson",
+        "Question": "Do you like",
+        "Quantity": "a lot of",
+        "Food Item": "beef"
+    }
+}
+=========================================================
+
+=========================================================
+no_header.csv as JSON object:
+{
+    "Record 1": {
+        "Field 1": "Hi",
+        "Field 2": "SamÆ",
+        "Field 3": "Do you like",
+        "Field 4": "much",
+        "Field 5": "tuna"
+    },
+    "Record 2": {
+        "Field 1": "Howdy",
+        "Field 2": "Bobbië",
+        "Field 3": "Would you like",
+        "Field 4": "some",
+        "Field 5": "celery"
+    },
+    "Record 3": {
+        "Field 1": "Hey",
+        "Field 2": "Anderson",
+        "Field 3": "Do you like",
+        "Field 4": "a lot of",
+        "Field 5": "beef"
+    }
+}
+=========================================================
+
 ```
 #
 ### [09-id_byte_str.py](../09-id_byte_str.py)
