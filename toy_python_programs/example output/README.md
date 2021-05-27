@@ -126,8 +126,8 @@ OK
 ### [05-utf_id.py](../05-utf_id.py)
 ```
 $ python3 utf_id.py utf8_file file.py utf16_file utf32_file
-Average Bytes Required for Each Character in arabic_utf8: 1.7925636007827788
-Average Bytes Required for Each Character in test_enc.py: 1.0
+Average Bytes Required for Each Character in utf8_file: 1.7925636007827788
+Average Bytes Required for Each Character in file.py: 1.0
 This program only accepts valid ASCII and UTF-8 files.
 This program only accepts valid ASCII and UTF-8 files.
 ```
@@ -143,8 +143,8 @@ words
 here
 ```
 ```
-$ python3 sub_what.py /usr/bin/bash ./twice.sh 30 40 100
-File: ./twice.sh
+$ python3 sub_what.py /usr/bin/bash ./double.sh 30 40 100
+File: ./double.sh
 Here is the result of your file and args using subprocess:
 Integer input doubled:
 60
@@ -154,14 +154,94 @@ Integer input doubled:
 #
 ### [07-file_checks.py](../07-file_checks.py)
 ```
+$ python3 file_checks.py utf8_file utf16_file utf32_file file.py
+File: utf8_file ... is encoded in UTF-8
+--------------------------------------------------------------------------------
+File: utf16_file ... is encoded in UTF-16
+--------------------------------------------------------------------------------
+File: utf32_file ... is encoded in UTF-32
+--------------------------------------------------------------------------------
+File: file.py ... is encoded in UTF-8
+--------------------------------------------------------------------------------
 ```
 #
 ### [08-turn_json.py](../08-turn_json.py)
 ```
+$ python3 test.py greetings.csv no_header.csv
+=========================================================
+greetings.csv as JSON object:
+{
+    "Record 1": {
+        "Greeting": "Hi",
+        "First Name": "SamÆ",
+        "Question": "Do you like",
+        "Quantity": "much",
+        "Food Item": "tuna"
+    },
+    "Record 2": {
+        "Greeting": "Howdy",
+        "First Name": "Bobbië",
+        "Question": "Would you like",
+        "Quantity": "some",
+        "Food Item": "celery"
+    },
+    "Record 3": {
+        "Greeting": "Hey",
+        "First Name": "Anderson",
+        "Question": "Do you like",
+        "Quantity": "a lot of",
+        "Food Item": "beef"
+    }
+}
+=========================================================
+
+=========================================================
+no_header.csv as JSON object:
+{
+    "Record 1": {
+        "Field 1": "Hi",
+        "Field 2": "SamÆ",
+        "Field 3": "Do you like",
+        "Field 4": "much",
+        "Field 5": "tuna"
+    },
+    "Record 2": {
+        "Field 1": "Howdy",
+        "Field 2": "Bobbië",
+        "Field 3": "Would you like",
+        "Field 4": "some",
+        "Field 5": "celery"
+    },
+    "Record 3": {
+        "Field 1": "Hey",
+        "Field 2": "Anderson",
+        "Field 3": "Do you like",
+        "Field 4": "a lot of",
+        "Field 5": "beef"
+    }
+}
+=========================================================
+
 ```
 #
 ### [09-id_byte_str.py](../09-id_byte_str.py)
+Get UTF status using program's get_status() function
 ```
+$ python3 test.py byte_str byte_str_utf16 byte_str_utf32
+byte_str
+---------
+UTF-8 byte strings
+Decoded: 跑到縣衙 跑到縣衙
+
+byte_str_utf16
+---------------
+UTF-16 byte strings
+Decoded: popcorn
+
+byte_str_utf32
+---------------
+UTF-32 byte strings
+Decoded: popcorn! popcorn! Eat popcorn during the movie.
 ```
 #
 [Return to top of page](#example-output)
