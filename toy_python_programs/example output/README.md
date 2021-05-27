@@ -134,6 +134,22 @@ This program only accepts valid ASCII and UTF-8 files.
 #
 ### [06-sub_what.py](../06-sub_what.py)
 ```
+$ python3 sub_what.py /usr/local/bin/java hwjava.java printed some words here
+File: hwjava.java
+Here is the result of your file and args using subprocess:
+printed
+some
+words
+here
+```
+```
+$ python3 sub_what.py /usr/bin/bash ./twice.sh 30 40 100
+File: ./twice.sh
+Here is the result of your file and args using subprocess:
+Integer input doubled:
+60
+80
+200
 ```
 #
 ### [07-file_checks.py](../07-file_checks.py)
